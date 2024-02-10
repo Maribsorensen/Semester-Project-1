@@ -21,4 +21,7 @@
 
   --fw-regular: 400;
   --fw-bold: 700;
+
+  --text-uppercase: uppercase;
+  --text-capitalize: capitalize;
 }
