@@ -1,2 +1,37 @@
 @import url('./reset.css');
 @import url('./variables.css');
+
+
+header {
+    width: 100%;
+    background-color: var(--primary-theme);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.header-logo {
+    color: var(--f-clr-secondary);
+    font-family: var(--ff-h);
+    font-size: var(--fs-header);
+    text-transform: var(--text-uppercase);
+    font-weight: var(--fw-bold);
+}
+.header-logo-link {
+    text-decoration: none;
+    text-align: center;
+}
+.header-nav ul {
+    text-align: center;
+}
+.header-nav li {
+    display: inline-block;
+}
+.header-nav a {
+    text-decoration: none;
+    font-family: var(--ff-h);
+    color: var(--f-clr-secondary);
+    font-size: var(--fs-h3);
+    text-transform: var(--text-uppercase);
+    padding-left: 1rem;
+}
