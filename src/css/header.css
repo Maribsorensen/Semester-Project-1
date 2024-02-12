@@ -1,37 +1,81 @@
-@import url('./reset.css');
-@import url('./variables.css');
-
+@import url("./reset.css");
+@import url("./variables.css");
 
 header {
-    width: 100%;
-    background-color: var(--primary-theme);
-    display: flex;
-    justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 1rem;
+  width: 100%;
+  background-color: var(--primary-theme);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  align-items: center;
+  position: relative;
 }
 .header-logo {
-    color: var(--f-clr-secondary);
-    font-family: var(--ff-h);
-    font-size: var(--fs-header);
-    text-transform: var(--text-uppercase);
-    font-weight: var(--fw-bold);
+  color: var(--f-clr-secondary);
+  font-family: var(--ff-h);
+  font-size: var(--fs-header);
+  text-transform: var(--text-uc);
+  font-weight: var(--fw-bold);
+  width: 11rem;
 }
 .header-logo-link {
-    text-decoration: none;
-    text-align: center;
+  text-decoration: none;
 }
-.header-nav ul {
-    text-align: center;
+.header-nav {
+  position: absolute;
+  background-color: var(--primary-theme);
+  top: 100%;
+  left: 0;
 }
 .header-nav li {
-    display: inline-block;
+  display: block;
+  padding-bottom: 1rem;
 }
 .header-nav a {
-    text-decoration: none;
-    font-family: var(--ff-h);
-    color: var(--f-clr-secondary);
-    font-size: var(--fs-h3);
-    text-transform: var(--text-uppercase);
+  text-decoration: none;
+  font-family: var(--ff-h);
+  color: var(--f-clr-secondary);
+  font-size: var(--fs-h3);
+  text-transform: var(--text-uc);
+}
+.header-nav a:hover {
+  text-decoration: underline;
+}
+#current {
+  text-decoration: underline;
+}
+.header-nav,
+#checkbox-menu {
+  display: none;
+  padding: 1rem 1.5rem;
+}
+#checkbox-menu:checked ~ .header-nav {
+  display: block;
+}
+.hamburger-icon {
+  color: var(--f-clr-secondary);
+  font-size: 2.5rem;
+}
+@media (min-width: 900px) {
+  .header-nav {
+    display: block;
+    position: static;
+    padding: 0;
+  }
+  .header-nav li {
+    display: inline-block;
+    padding-bottom: 0;
+  }
+  .hamburger-icon {
+    display: none;
+  }
+  .header-nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .header-nav a {
     padding-left: 1rem;
+  }
 }

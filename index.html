@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="stylesheet" href="/src/css/styles.css" />
   </head>
   <body>
     <header>
+      <input type="checkbox" id="checkbox-menu" />
+      <label for="checkbox-menu" class="hamburger-icon"
+        >&#9776;<i class="hamburger-bars"></i
+      ></label>
       <a href="index.html" class="header-logo-link">
         <div class="header-logo">Nordic Wonder Museum</div>
       </a>
       <nav class="header-nav">
         <ul class="header-ul">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" id="current">Home</a></li>
           <li><a href="exhibitions.html">Exhibitions</a></li>
           <li><a href="contribute.html">Contribute</a></li>
           <li><a href="contact.html">Information</a></li>
@@ -36,12 +40,11 @@
           </a>
         </div>
       </div>
-
       <section class="index-list">
         <div class="index-list-item">
           <a href="">
             <img src="" alt="" class="index-list-img" />
-            <h2 class="index-list-headline"></h2>
+            <h2 class="index-list-headline">test</h2>
           </a>
         </div>
         <div class="index-list-item">
@@ -94,17 +97,17 @@
       </section>
     </main>
     <footer>
-      <div>
-        <a href="index.html">
-          <div>Nordic Wonder Museum</div>
+      <div class="footer-list-container">
+        <a href="index.html" class="footer-logo-link">
+          <div class="footer-logo">Nordic Wonder Museum</div>
         </a>
         <p>Nidareid 1, 7018 Trondheim</p>
         <p>Phone: +47 123 12 123</p>
         <p>Email: nordicwonder@museum.no</p>
       </div>
-      <div>
-        <nav>
-          <ul>
+      <div class="footer-list-container">
+        <nav class="footer-nav">
+          <ul class="footer-ul">
             <li><a href="policy.html">Privacy Policy</a></li>
             <li><a href="terms.html">Terms&Conditions</a></li>
             <li><a href="contact.html">Contact</a></li>

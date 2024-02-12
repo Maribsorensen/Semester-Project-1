@@ -10,3 +10,20 @@ body {
   margin: 0;
   width: 100%;
 }
+section {
+  margin: 0 2.5rem;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ff-h);
+  font-weight: var(--fw-regular);
+  color: var(--f-clr-base);
+  padding: 0;
+  margin: 0;
+}
+p {
+  font-size: var(--fs-base);
+  font-family: var(--ff-p);
+  color: var(--f-clr-base);
+  padding: 0;
+  margin: 0;
+}

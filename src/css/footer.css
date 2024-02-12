@@ -1,2 +1,41 @@
-@import url('./reset.css');
-@import url('./variables.css');
+@import url("./reset.css");
+@import url("./variables.css");
+
+footer {
+  width: 100%;
+  background-color: var(--primary-theme);
+  color: var(--f-clr-secondary);
+  display: flex;
+  justify-content: space-around;
+}
+.footer-logo {
+  font-family: var(--ff-h);
+  color: var(--f-clr-secondary);
+  font-size: var(--fs-h3);
+  text-transform: var(--text-uc);
+  font-weight: var(--fw-bold);
+  width: 8rem;
+}
+.footer-logo-link {
+  text-decoration: none;
+}
+footer p {
+  color: var(--f-clr-secondary);
+}
+.footer-nav li {
+  display: block;
+  padding-bottom: 0.5rem;
+}
+.footer-nav a {
+  text-decoration: none;
+  font-family: var(--ff-h);
+  color: var(--f-clr-secondary);
+  font-size: var(--fs-h2);
+  text-transform: var(--text-uc);
+}
+.footer-ul {
+  margin: 0;
+}
+.footer-list-container {
+  margin: 1.5rem 0.5rem;
+}
