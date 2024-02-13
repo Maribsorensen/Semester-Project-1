@@ -19,6 +19,9 @@ footer {
 .footer-logo-link {
   text-decoration: none;
 }
+.footer-information-list {
+  margin-top: 1rem;
+}
 footer p {
   color: var(--f-clr-secondary);
 }
@@ -35,7 +38,25 @@ footer p {
 }
 .footer-ul {
   margin: 0;
+  padding: 0;
 }
 .footer-list-container {
   margin: 1.5rem 0.5rem;
+}
+footer img {
+  block-size: 2rem;
+  margin: 1rem 0.8rem 1rem 0rem;
+}
+
+@media (max-width: 500px) {
+  footer {
+    display: block;
+    text-align: center;
+  }
+  footer img {
+    margin: 1rem 0.8rem;
+  }
+  .footer-logo {
+    margin: 0 auto;
+  }
 }
