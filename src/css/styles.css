@@ -3,3 +3,30 @@
 @import url('./header.css');
 @import url('./footer.css');
 
+/*--------Index--------*/
+.index-hero {
+  width: 100%;
+  background-color: var(--primary-theme);
+  display: flex;
+  justify-content: space-around;
+}
+.hero-img-container, .hero-article-container {
+  width: 45%;
+}
+.hero-img-container {
+  margin: 1.5rem 0;
+}
+.hero-article-container {
+  margin: auto 0;
+}
+.hero-img {
+  width: 100%;
+}
+.hero-article-headline {
+  font-size: var(--fs-h1);
+  color: var(--f-clr-secondary);
+}
+.hero-article-paragraph {
+  color: var(--f-clr-secondary);
+  margin: 2rem 0;
+}

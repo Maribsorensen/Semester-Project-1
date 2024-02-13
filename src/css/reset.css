@@ -16,7 +16,8 @@ section {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-h);
   font-weight: var(--fw-regular);
-  color: var(--f-clr-base);
+  color: var(--f-clr-special);
+  text-transform: var(--text-uc);
   padding: 0;
   margin: 0;
 }
@@ -26,4 +27,11 @@ p {
   color: var(--f-clr-base);
   padding: 0;
   margin: 0;
+}
+button {
+  border-radius: 1.8rem;
+  background-color: var(--primary-bg);
+  border: 0;
+  font-family: var(--ff-p);
+  padding: 1rem;
 }
