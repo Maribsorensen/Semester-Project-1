@@ -43,8 +43,8 @@ footer p {
 .footer-list-container {
   margin: 1.5rem 0.5rem;
 }
-footer img {
-  block-size: 2rem;
+.fa-instagram, .fa-facebook, .fa-youtube {
+  font-size: 2.2rem;
   margin: 1rem 0.8rem 1rem 0rem;
 }
 
@@ -53,8 +53,8 @@ footer img {
     display: block;
     text-align: center;
   }
-  footer img {
-    margin: 1rem 0.8rem;
+  .fa-instagram, .fa-facebook, .fa-youtube {
+    margin: 1rem 0.5rem;
   }
   .footer-logo {
     margin: 0 auto;

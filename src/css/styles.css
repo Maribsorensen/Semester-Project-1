@@ -3,7 +3,7 @@
 @import url('./header.css');
 @import url('./footer.css');
 
-/*--------Index--------*/
+/*--------Index-hero--------*/
 .index-hero {
   width: 100%;
   background-color: var(--primary-theme);
@@ -11,7 +11,7 @@
   justify-content: space-around;
 }
 .hero-img-container, .hero-article-container {
-  width: 45%;
+  width: 47%;
 }
 .hero-img-container {
   margin: 1.5rem 0;
@@ -30,3 +30,59 @@
   color: var(--f-clr-secondary);
   margin: 2rem 0;
 }
+.hero-button {
+  color: var(--primary-theme);
+}
+.fa-arrow-right {
+  padding-left: 1rem;
+}
+@media (max-width: 900px) {
+  .index-hero {
+    display: block;
+    text-align: center;
+  }
+  .hero-img-container, .hero-article-container {
+    width: 100%;
+  }
+  .hero-img-container {
+    margin: 0;
+  }
+  .hero-article-headline, .hero-article-paragraph, .hero-button {
+    margin: 1rem 0;
+  }
+}
+
+/*--------Index-main--------*/
+.index-list-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: ; /*---check here for size--*/
+  gap: 1rem;
+}
+.index-list-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.index-list-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 20px;
+}
+.index-list-headline {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: var(--f-clr-secondary);
+  transition: .2s ease;
+}
+
+.index-list-item:hover .index-list-headline {
+  transform: scale(1.5);
+  right: 2rem;
+}
+
