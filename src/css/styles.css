@@ -1,7 +1,7 @@
-@import url('./reset.css');
-@import url('./variables.css');
-@import url('./header.css');
-@import url('./footer.css');
+@import url("./reset.css");
+@import url("./variables.css");
+@import url("./header.css");
+@import url("./footer.css");
 
 /*--------Index-hero--------*/
 .index-hero {
@@ -10,7 +10,8 @@
   display: flex;
   justify-content: space-around;
 }
-.hero-img-container, .hero-article-container {
+.hero-img-container,
+.hero-article-container {
   width: 47%;
 }
 .hero-img-container {
@@ -41,13 +42,16 @@
     display: block;
     text-align: center;
   }
-  .hero-img-container, .hero-article-container {
+  .hero-img-container,
+  .hero-article-container {
     width: 100%;
   }
   .hero-img-container {
     margin: 0;
   }
-  .hero-article-headline, .hero-article-paragraph, .hero-button {
+  .hero-article-headline,
+  .hero-article-paragraph,
+  .hero-button {
     margin: 1rem 0;
   }
 }
@@ -78,11 +82,71 @@
   top: 1rem;
   right: 1rem;
   color: var(--f-clr-secondary);
-  transition: .2s ease;
+  font-size: var(--fs-h2);
+  transition: 0.2s ease;
 }
 
 .index-list-item:hover .index-list-headline {
-  transform: scale(1.5);
+  transform: scale(1.2);
   right: 2rem;
 }
 
+@media (max-width: 1150px) {
+  .index-list-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 560px) {
+  .index-list-grid {
+    display: block;
+  }
+  .index-list-img {
+    border-radius: 0;
+  }
+}
+
+.index-lab-container {
+  width: 70%;
+  display: flex;
+  margin: 0 auto;
+}
+.index-lab-img-container {
+  width: 50%;
+  position: relative;
+}
+.index-lab-img,
+.index-lab-bubble-img {
+  width: 100%;
+}
+.index-lab-bubble-img {
+  position: relative;
+}
+.index-lab-paragraph {
+  position: absolute;
+  text-align: center;
+  top: 15%;
+  left: 22%;
+  color: var(--f-clr-secondary);
+  margin-block: 0;
+}
+@media (max-width: 900px) {
+  .index-lab-container {
+    width: 100%;
+  }
+}
+@media (max-width: 580px) {
+  .index-lab-paragraph {
+    top: 5%;
+    line-height: 1.2;
+  }
+}
+.index-article-section {
+  background-color: var(--secondary-theme);
+  display: flex;
+}
+.index-article-container {
+  width: 45%;
+}
+.index-article-img {
+  width: 100%;
+}

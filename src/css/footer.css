@@ -1,6 +1,16 @@
 @import url("./reset.css");
 @import url("./variables.css");
 
+.footer-hero-section {
+  width: 100%;
+  height: 10rem;
+  margin: 0;
+}
+.footer-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 footer {
   width: 100%;
   background-color: var(--primary-theme);

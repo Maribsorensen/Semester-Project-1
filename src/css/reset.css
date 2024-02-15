@@ -36,3 +36,8 @@ button {
   font-size: 1rem;
   padding: 1rem;
 }
+@media (max-width: 560px) {
+  section {
+    margin: 1rem 0;
+  }
+}
