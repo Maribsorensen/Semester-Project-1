@@ -69,4 +69,7 @@ footer p {
   .footer-logo {
     margin: 0 auto;
   }
+  .footer-list-container {
+    margin: 0;
+  }
 }
