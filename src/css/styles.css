@@ -304,13 +304,38 @@
   align-self: center;
   color: var(--secondary-theme);
 }
+
+/*--------contact form--------*/
 .contact-form-section {
   border-style: solid;
   border-color: var(--secondary-theme);
-
+  padding: 1rem 3rem;
 }
-
-
+.contact-form-section h3 {
+  text-align: center;
+}
+.contact-form-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  gap: 1rem;
+}
+.contact-form-container {
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+  font-family: var(--ff-p);
+}
+.contact-form-container input {
+  width: 100%;
+  border: none;
+  border-bottom: 0.1rem solid var(--secondary-theme);
+}
+.contact-form-container label {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 
 
 @media (max-width: 580px) {
