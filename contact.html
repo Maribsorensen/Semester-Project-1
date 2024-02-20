@@ -1,62 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <header></header>
-  <main>
-    <section>
-      <h1></h1>
-    </section>
-    <section class="contact-section">
-      <div class="contact-img-container">
-        <img src="" alt="" class="contact-img">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/2853574374.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" id="checkbox-menu" />
+      <label for="checkbox-menu" class="hamburger-icon"
+        ><i class="fa-solid fa-bars-staggered"></i>
+      </label>
+      <a href="index.html" class="header-logo-link">
+        <div class="header-logo">Nordic Wonder Museum</div>
+      </a>
+      <nav class="header-nav">
+        <ul class="header-ul">
+          <li><a href="index.html" id="current">Home</a></li>
+          <li><a href="exhibitions.html">Exhibitions</a></li>
+          <li><a href="contribute.html">Contribute</a></li>
+          <li><a href="contact.html">Information</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Information and how to get in touch</h1>
+      </section>
+      <section class="contact-map-section">
+        <div class="contact-img-container">
+          <img src="/assets/images/map-img.png" alt="" class="contact-img" />
+        </div>
+        <div class="contact-article-box">
+          <div class="article-container">
+            <h2 class="contact-article-headline">Location</h2>
+            <p class="article">
+              The museum is located west of Trondheim sentrum.
+            </p>
+            <p class="article">Nidareid 1, 7018 Trondeim</p>
+          </div>
+          <div class="article-container">
+            <h2 class="contact-article-headline">Contact information</h2>
+            <div class="contact-information-div">
+              <i class="fa-solid fa-phone"></i>
+              <p class="article">Phone: +47 123 12 123</p>
+            </div>
+            <div class="contact-information-div">
+              <i class="fa-solid fa-envelope"></i>
+              <p class="article">Email: nordicwonder@museum.no</p>
+            </div>
+          </div>
+          <div class="article-container">
+            <h2 class="contact-article-headline">Opening hours</h2>
+            <ul class="contact-article-ul">
+              <li>Monday: Closed</li>
+              <li>Tuesday: 10:00-16:00</li>
+              <li>Wednesday: 10:00-16:00</li>
+              <li>Thursday: 10:00-16:00</li>
+              <li>Friday: 10:00-19:00</li>
+              <li>Saturday: 09:00-16:00</li>
+              <li>Sunday: 09:00-13:00</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="policies-grid">
+          <div class="article-container">
+            <h2 class="article-headline">Admission</h2>
+            <p class="article">The entrance is free for all.</p>
+            <p class="article">
+              There are guided tours of the museum that leave every hour. These
+              tours are 70 NOK per person and include a handy printed guide of
+              the museum.
+            </p>
+            <p class="article">
+              If you would like to organise a guided tour for your group of 6 or
+              more people, please contact us to arrange the tour.
+            </p>
+          </div>
+          <div class="article-container">
+            <h2 class="article-headline">Information</h2>
+            <p class="article">
+              The museum has wheelchair accessibility ramps. It also has audio
+              guides and braille display signs for the visually impaired.
+            </p>
+            <p class="article">
+              There is a café attached to the museum where you can get light
+              lunches, soft drinks, coffee, snacks and more.
+            </p>
+            <p class="article">
+              Our shop offers a range of memorabilia from the museum as well as
+              great gifts and activity packs that allow you to continue to
+              explore science even after you've left the museum.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contact-form-section">
+          <h3>Contact Form</h3>
+          <form action="" class="contact-form">
+            <input type="text" name="first-name" id="first-name" />
+            <label for="first-name">First name</label>
+            <input type="text" name="last-name" id="last-name" />
+            <label for="last-name">Last name</label>
+            <input type="email" name="email" id="email" />
+            <label for="email">Email adress</label>
+            <input type="number" name="phone-number" id="phone-number" />
+            <label for="phone-number">Phone number</label>
+            <input type="text" name="subject" id="subject" />
+            <label for="subject">Subject</label>
+            <input type="text" name="message" id="message" />
+            <label for="message">Message</label>
+            <button></button>
+          </form>
+      </section>
+      <section class="footer-hero-section">
+        <img
+          src="/assets/images/footer-hero.png"
+          alt=""
+          class="footer-hero-img"
+        />
+      </section>
+    </main>
+    <footer>
+      <div class="footer-list-container">
+        <a href="index.html" class="footer-logo-link">
+          <div class="footer-logo">Nordic Wonder Museum</div>
+        </a>
+        <div class="footer-information-list">
+          <p>Nidareid 1, 7018 Trondheim</p>
+          <p>Phone: +47 123 12 123</p>
+          <p>Email: nordicwonder@museum.no</p>
+        </div>
       </div>
-      <div class="contact-article-box">
-        <div class="article-container">
-          <h2 class="article-headline"></h2>
-          <p class="article"></p>
-        </div>
-        <div class="article-container">
-          <h2 class="article-headline"></h2>
-          <p class="article"></p>
-        </div>
-        <div class="article-container">
-          <h2 class="article-headline"></h2>
-          <p class="article"></p>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="article-box">
-        <div class="article-container">
-          <h2 class="article-headline"></h2>
-          <p class="article"></p>
-        </div>
-        <div class="article-container">
-          <h2 class="article-headline"></h2>
-          <p class="article"></p>
+      <div class="footer-list-container">
+        <nav class="footer-nav">
+          <ul class="footer-ul">
+            <li><a href="policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms&Conditions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
         </div>
       </div>
-    </section>   
-    <section>
-      <div>
-        <h3></h3>
-        <form action="">
-          <input type="text" name="" id="">
-          <input type="text" name="" id="">
-          <input type="email" name="" id="">
-          <input type="number" name="" id="">
-          <input type="text" name="" id="">
-          <input type="text" name="" id="">
-          <button></button>
-        </form>
-      </div>
-    </section>
-  </main>
-  <footer></footer>
-</body>
+    </footer>
+  </body>
 </html>

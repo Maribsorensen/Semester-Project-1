@@ -11,11 +11,27 @@
     ></script>
   </head>
   <body>
-    <header></header>
+    <header>
+      <input type="checkbox" id="checkbox-menu" />
+      <label for="checkbox-menu" class="hamburger-icon"
+        ><i class="fa-solid fa-bars-staggered"></i>
+      </label>
+      <a href="index.html" class="header-logo-link">
+        <div class="header-logo">Nordic Wonder Museum</div>
+      </a>
+      <nav class="header-nav">
+        <ul class="header-ul">
+          <li><a href="index.html" id="current">Home</a></li>
+          <li><a href="exhibitions.html">Exhibitions</a></li>
+          <li><a href="contribute.html">Contribute</a></li>
+          <li><a href="contact.html">Information</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
       <section>
         <h1>Our privacy policy</h1>
-        <p>
+        <p class="article">
           Welcome to Nordic Wonder Museum, a community science museum located in
           [Location, Norway]. Our website is dedicated to providing information
           about our museum, including exhibits, events, and educational
@@ -30,32 +46,50 @@
       <section class="policies-grid">
         <div class="article-container">
           <h2 class="article-headline">Information we do not collect</h2>
-          <p class="article">
-            • Cookies: Our website does not use cookies or similar tracking
-            technologies. • Personal Data: We do not require users to create an
-            account or log in to access our website. Therefore, we do not
-            collect personal data like names, addresses, email addresses, or
-            phone numbers. • User Activity Tracking: We do not track or analyse
-            user behaviour on our website.
-          </p>
+          <ul class="article-ul">
+            <li>
+              Cookies: Our website does not use cookies or similar tracking
+              technologies.
+            </li>
+            <li>
+              Personal Data: We do not require users to create an account or log
+              in to access our website. Therefore, we do not collect personal
+              data like names, addresses, email addresses, or phone numbers.
+            </li>
+            <li>
+              User Activity Tracking: We do not track or analyse user behaviour
+              on our website.
+            </li>
+          </ul>
         </div>
         <div class="article-container">
           <h2 class="article-headline">Information we collect</h2>
-          <p class="article">
-            • Voluntary Information: Visitors may choose to contact us via email
-            or phone for inquiries. In such cases, we only use the information
-            provided to address the inquiry. • Aggregate Data: We may collect
-            anonymous, aggregate data such as the number of visitors to our site
-            for internal use. This data does not identify individual users.
-          </p>
+          <ul class="article-ul">
+            <li>
+              Voluntary Information: Visitors may choose to contact us via email
+              or phone for inquiries. In such cases, we only use the information
+              provided to address the inquiry.
+            </li>
+            <li>
+              Aggregate Data: We may collect anonymous, aggregate data such as
+              the number of visitors to our site for internal use. This data
+              does not identify individual users.
+            </li>
+          </ul>
         </div>
         <div class="article-container">
           <h2 class="article-headline">Use of information</h2>
           <p class="article">
             The limited information we collect is used solely for the following
-            purposes: • Responding to inquiries. • Improving our website and
-            services. Ensuring the security of our website.
+            purposes:
           </p>
+          <ul class="article-ul">
+            <li>Responding to inquiries.</li>
+            <li>
+              Improving our website and services. Ensuring the security of our
+              website.
+            </li>
+          </ul>
         </div>
         <div class="article-container">
           <h2 class="article-headline">Data security</h2>
@@ -86,7 +120,39 @@
           contact form.
         </p>
       </section>
+      <section class="footer-hero-section">
+        <img
+          src="/assets/images/footer-hero.png"
+          alt=""
+          class="footer-hero-img"
+        />
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-list-container">
+        <a href="index.html" class="footer-logo-link">
+          <div class="footer-logo">Nordic Wonder Museum</div>
+        </a>
+        <div class="footer-information-list">
+          <p>Nidareid 1, 7018 Trondheim</p>
+          <p>Phone: +47 123 12 123</p>
+          <p>Email: nordicwonder@museum.no</p>
+        </div>
+      </div>
+      <div class="footer-list-container">
+        <nav class="footer-nav">
+          <ul class="footer-ul">
+            <li><a href="policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms&Conditions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
