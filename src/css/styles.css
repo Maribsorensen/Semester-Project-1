@@ -355,3 +355,30 @@
     display: block;
   }
 }
+
+
+/*--------contribute--------*/
+.contribution-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.contribution-img-container {
+  grid-row-start: 1;
+  grid-row-end: -4;
+  width: 100%;
+}
+.contribution-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+@media (max-width: 1000px) {
+  .contribution-grid {
+    grid-template-columns: 1fr;
+  }
+  .contribution-img {
+    border-radius: 0;
+  }
+}
