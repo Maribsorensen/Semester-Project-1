@@ -57,6 +57,9 @@ footer p {
   font-size: 2.2rem;
   margin: 1rem 0.8rem 1rem 0rem;
 }
+.fa-instagram:hover, .fa-facebook:hover, .fa-youtube:hover {
+  color: var(--primary-theme-ltr);
+}
 
 @media (max-width: 500px) {
   footer {
