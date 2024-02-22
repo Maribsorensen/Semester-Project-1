@@ -30,13 +30,13 @@ header {
 }
 .header-nav li {
   display: block;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 .header-nav a {
   text-decoration: none;
   font-family: var(--ff-h);
   color: var(--f-clr-secondary);
-  font-size: var(--fs-h3);
+  font-size: var(--fs-h1);
   text-transform: var(--text-uc);
 }
 .header-nav a:hover {
@@ -77,5 +77,6 @@ header {
   }
   .header-nav a {
     padding-left: 1rem;
+    font-size: var(--fs-h3);
   }
 }
