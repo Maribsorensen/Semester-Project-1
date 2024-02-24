@@ -421,9 +421,9 @@
   width: 50%;
 }
 .contribution-article-container {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
   gap: 1rem;
+  flex-direction: column;
 }
 .contribution-img {
   width: 100%;
