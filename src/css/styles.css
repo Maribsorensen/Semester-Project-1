@@ -108,9 +108,8 @@
     border-radius: 0;
   }
 }
-
 .index-lab-container {
-  width: 70%;
+  width: 50%;
   display: flex;
   margin: 0 auto;
 }
@@ -258,7 +257,7 @@
   text-align: center;
   font-weight: var(--fw-bold);
 }
-.exhibitions-news-container {
+.exhibitions-news {
   border-color: var(--secondary-theme);
   border-style: solid;
   padding: 1rem;
@@ -267,8 +266,11 @@
   display: flex;
   justify-content: space-around;
 }
-.exhibitions-news-article-container {
+.exhibitions-news-container {
   width: 32%;
+}
+.news-img {
+  width: 100%;
 }
 .exhibitions-news-article-headline {
   text-decoration: underline;
@@ -278,15 +280,19 @@
   text-overflow: ellipsis;
   margin-block: 0;
 }
-@media (max-width: 580px) {
+@media (max-width: 900px) {
   .exhibitions-news-article-section {
-    display: block;
-  }
-  .exhibitions-news-article-container {
-    width: 100%;
-    margin-top: 1rem;
+    flex-direction: column;
   }
   .exhibitions-news-container {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+  }
+  .news-img-container {
+    width: 100%;
+  }
+  .exhibitions-news {
     border: none;
     margin: 1rem;
   }
