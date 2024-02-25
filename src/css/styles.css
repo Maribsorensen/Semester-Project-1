@@ -139,7 +139,7 @@
     width: 100%;
   }
 }
-@media (max-width: 580px) {
+@media (max-width: 610px) {
   .index-lab-paragraph {
     top: 5%;
     line-height: 1.2;
@@ -336,7 +336,11 @@
   align-self: center;
   color: var(--secondary-theme);
 }
-
+@media (max-width: 580px) {
+  .article-special {
+    margin: 1rem;
+  }
+}
 /*--------contact form--------*/
 .contact-form-section {
   border-style: solid;
@@ -436,6 +440,9 @@
   }
   .contribution-article-container, .contribution-img-container {
     width: 100%;
+  }
+  .contribution-article-container {
+    margin: 1rem;
   }
   .contribution-img {
     border-radius: 0;
