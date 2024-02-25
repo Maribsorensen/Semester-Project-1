@@ -56,11 +56,15 @@ footer p {
 .fa-instagram, .fa-facebook, .fa-youtube {
   font-size: 2.2rem;
   margin: 1rem 0.8rem 1rem 0rem;
+  text-decoration: none;
+  color: var(--f-clr-secondary);
 }
 .fa-instagram:hover, .fa-facebook:hover, .fa-youtube:hover {
   color: var(--primary-theme-ltr);
 }
-
+.socials {
+  text-decoration: none;
+}
 @media (max-width: 500px) {
   footer {
     display: block;
