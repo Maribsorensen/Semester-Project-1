@@ -366,13 +366,14 @@
   border: none;
   border-bottom: 0.1rem solid var(--secondary-theme);
   margin-top: 1rem;
-
+  font-size: 1rem;
 }
 .contact-form-container textarea {
   width: 100%;
   margin-top: 1rem;
   border:  0.1rem solid var(--secondary-theme);
   font-family: var(--ff-p);
+  font-size: 1rem;
 }
 .contact-form-container label {
   position: absolute;
@@ -389,6 +390,7 @@
   background-color: var(--secondary-theme);
   letter-spacing: 0.1rem;
 }
+
 @media (max-width: 580px) {
   .policies-grid {
     grid-template-columns: 1fr;
@@ -445,4 +447,33 @@
   .contribution-img {
     border-radius: 0;
   }
+}
+
+/*--------showcase pages--------*/
+.showcase-special-bg {
+  background-color: #010F15;
+}
+.showcase-colors {
+  color: var(--f-clr-secondary);
+}
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: ; /*---check here for size--*/
+  gap: 1rem;
+}
+.showcase-img, .showcase-img-container, .showcase-hero, .showcase-hero-img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.showcase-hero {
+  margin: 0;
+  position: relative;
+}
+.showcase-hero-headline {
+  position: absolute;
+  top: 65%;
+  left: 2%;
+  font-size: var(--fs-h3);
 }
