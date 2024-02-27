@@ -210,7 +210,6 @@
   grid-template-columns: repeat(2, 1fr);
   background-color: var(--secondary-theme);
   gap: 0.5rem;
-
   padding: 1rem;
   text-decoration: none;
 }
@@ -263,45 +262,38 @@
   padding: 1rem;
 }
 .exhibitions-news-article-section {
-  display: flex;
-  justify-content: space-around;
-}
-.exhibitions-news-container {
-  width: 32%;
-}
-.news-img {
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 .exhibitions-news-article-headline {
   text-decoration: underline;
 }
-.exhibitions-news-article {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin-block: 0;
+.news-img-container, .news-img {
+  width: 100%;
 }
 @media (max-width: 900px) {
   .exhibitions-news-article-section {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
-  .exhibitions-news-container {
-    width: 100%;
-    margin-top: 1rem;
-    display: flex;
-  }
-  .news-img-container {
-    width: 100%;
-  }
-  .exhibitions-news {
-    border: none;
-    margin: 1rem;
-  }
-  .exhibitions-news-headline {
-    margin: 0;
+  .news-img {
+    max-height: 20rem;
+    object-fit: cover;
+    object-position: 50% 60%;
   }
 }
+@media (max-width: 580px) {
+  .exhibitions-news {
+    padding: 0;
+    border: none;
+    border-bottom: solid;
+    border-top: solid;
+  }
+  .exhibitions-news-article-headline, .exhibitions-news-article {
+    margin: 0 1rem;
+  }
 
-
+}
 /*--------terms and policy and contact--------*/
 
 .policies-grid {
