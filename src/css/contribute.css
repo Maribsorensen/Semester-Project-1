@@ -1,0 +1,31 @@
+.contribution-section {
+  display: flex;
+  gap: 1rem;
+}
+.contribution-article-container, .contribution-img-container {
+  width: 50%;
+}
+.contribution-article-container {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+.contribution-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+@media (max-width: 1000px) {
+  .contribution-section {
+    flex-direction: column;
+  }
+  .contribution-article-container, .contribution-img-container {
+    width: 100%;
+  }
+  .contribution-article-container {
+    margin: 1rem;
+  }
+  .contribution-img {
+    border-radius: 0;
+  }
+}

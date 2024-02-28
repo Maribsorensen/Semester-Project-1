@@ -1,0 +1,117 @@
+.policies-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.article-headline, .contact-article-headline {
+  font-size: var(--fs-h2);
+}
+.article, .article-ul,.contact-article-ul, .contact-article-headline, .fa-phone, .fa-envelope {
+  padding-top: 0.8rem;
+}
+.article-ul, .contact-article-ul {
+  padding-inline-start: 20px;
+  font-family: var(--ff-p);
+  margin: 0;
+}
+.contact-article-ul {
+  list-style-type: none;
+}
+.contact-map-section {
+  display: flex;
+  gap: 1rem;
+}
+.contact-img-container {
+  width: 70%
+}
+.contact-img {
+  width: 100%;
+}
+.contact-information-div {
+  display: flex;
+  gap: 0.5rem;
+}
+.fa-phone, .fa-envelope {
+  align-self: center;
+  color: var(--secondary-theme);
+}
+
+/*--------contact form--------*/
+.contact-form-section {
+  border-style: solid;
+  border-color: var(--secondary-theme);
+  padding: 1rem 3rem;
+}
+.contact-form-section h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.contact-form-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  gap: 1rem;
+}
+.contact-form-container {
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+  font-family: var(--ff-p);
+}
+.contact-form-container input {
+  width: 100%;
+  border: none;
+  border-bottom: 0.1rem solid var(--secondary-theme);
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.contact-form-container textarea {
+  width: 100%;
+  margin-top: 1rem;
+  border:  0.1rem solid var(--secondary-theme);
+  font-family: var(--ff-p);
+  font-size: 1rem;
+}
+.contact-form-container label {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.contact-form-button {
+  border: solid var(--secondary-theme);
+  text-align: center;
+  transition: 0.3s;
+}
+.contact-form-button:hover {
+  color: var(--f-clr-secondary);
+  background-color: var(--secondary-theme);
+  letter-spacing: 0.1rem;
+}
+
+/*--------contact form--------*/
+@media (max-width: 580px) {
+  .policies-grid {
+    grid-template-columns: 1fr;
+    margin: 1rem;
+  }
+  .contact-img-container {
+    width: 100%
+  }
+  .contact-map-section {
+    margin: 1rem;
+  }
+  .contact-form-section {
+    border: none;
+  }
+  .contact-form-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .article-special {
+    margin: 1rem;
+  }
+}
+@media (max-width: 1200px) {
+  .contact-map-section {
+    display: block;
+  }
+}

@@ -1,0 +1,26 @@
+.showcase-special-bg {
+  background-color: #010F15;
+}
+.showcase-colors {
+  color: var(--f-clr-secondary);
+}
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.showcase-img, .showcase-img-container, .showcase-hero, .showcase-hero-img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.showcase-hero {
+  margin: 0;
+  position: relative;
+}
+.showcase-hero-headline {
+  position: absolute;
+  top: 65%;
+  left: 2%;
+  font-size: var(--fs-h3);
+}
