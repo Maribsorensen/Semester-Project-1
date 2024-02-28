@@ -1,3 +1,5 @@
+@import url("./variables.css");
+
 .policies-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -88,7 +90,7 @@
   letter-spacing: 0.1rem;
 }
 
-/*--------contact form--------*/
+/*--------Media--------*/
 @media (max-width: 580px) {
   .policies-grid {
     grid-template-columns: 1fr;

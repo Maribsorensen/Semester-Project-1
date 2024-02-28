@@ -1,4 +1,3 @@
-@import url('./reset.css');
 @import url('./variables.css');
 @import url('./header.css');
 @import url('./footer.css');
@@ -47,6 +46,8 @@ button {
   padding: 1rem;
   transition: 0.3s;
 }
+
+/*--------Media--------*/
 @media (max-width: 580px) {
   section {
     margin: 1rem 0;
