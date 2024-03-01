@@ -1,11 +1,11 @@
-@import url('./variables.css');
-@import url('./header.css');
-@import url('./footer.css');
-@import url('./index.css');
-@import url('./exhibitions.css');
-@import url('./informational.css');
-@import url('./contribute.css');
-@import url('./showcase.css');
+@import url("./variables.css");
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./index.css");
+@import url("./exhibitions.css");
+@import url("./informational.css");
+@import url("./contribute.css");
+@import url("./showcase.css");
 
 *,
 *:before,
@@ -22,7 +22,12 @@ body {
 section {
   margin: 1rem 2.5rem;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--ff-h);
   font-weight: var(--fw-regular);
   color: var(--f-clr-special);

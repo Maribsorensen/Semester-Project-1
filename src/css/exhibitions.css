@@ -54,7 +54,8 @@
 .exhibitions-news-article-headline {
   text-decoration: underline;
 }
-.news-img-container, .news-img {
+.news-img-container,
+.news-img {
   width: 100%;
 }
 
@@ -87,11 +88,11 @@
     border-bottom: solid;
     border-top: solid;
   }
-  .exhibitions-news-article-headline, .exhibitions-news-article {
+  .exhibitions-news-article-headline,
+  .exhibitions-news-article {
     margin: 0 1rem;
   }
   .exhibitions-list {
     grid-template-columns: 1fr;
   }
 }
-

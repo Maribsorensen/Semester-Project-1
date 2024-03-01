@@ -5,13 +5,20 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
-.article-headline, .contact-article-headline {
+.article-headline,
+.contact-article-headline {
   font-size: var(--fs-h2);
 }
-.article, .article-ul,.contact-article-ul, .contact-article-headline, .fa-phone, .fa-envelope {
+.article,
+.article-ul,
+.contact-article-ul,
+.contact-article-headline,
+.fa-phone,
+.fa-envelope {
   padding-top: 0.8rem;
 }
-.article-ul, .contact-article-ul {
+.article-ul,
+.contact-article-ul {
   padding-inline-start: 20px;
   font-family: var(--ff-p);
   margin: 0;
@@ -24,7 +31,7 @@
   gap: 1rem;
 }
 .contact-img-container {
-  width: 70%
+  width: 70%;
 }
 .contact-img {
   width: 100%;
@@ -33,7 +40,8 @@
   display: flex;
   gap: 0.5rem;
 }
-.fa-phone, .fa-envelope {
+.fa-phone,
+.fa-envelope {
   align-self: center;
   color: var(--secondary-theme);
 }
@@ -70,7 +78,7 @@
 .contact-form-container textarea {
   width: 100%;
   margin-top: 1rem;
-  border:  0.1rem solid var(--secondary-theme);
+  border: 0.1rem solid var(--secondary-theme);
   font-family: var(--ff-p);
   font-size: 1rem;
 }
@@ -97,7 +105,7 @@
     margin: 1rem;
   }
   .contact-img-container {
-    width: 100%
+    width: 100%;
   }
   .contact-map-section {
     margin: 1rem;

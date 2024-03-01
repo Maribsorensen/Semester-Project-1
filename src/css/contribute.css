@@ -4,7 +4,8 @@
   display: flex;
   gap: 1rem;
 }
-.contribution-article-container, .contribution-img-container {
+.contribution-article-container,
+.contribution-img-container {
   width: 50%;
 }
 .contribution-article-container {
@@ -23,7 +24,8 @@
   .contribution-section {
     flex-direction: column;
   }
-  .contribution-article-container, .contribution-img-container {
+  .contribution-article-container,
+  .contribution-img-container {
     width: 100%;
   }
   .contribution-article-container {

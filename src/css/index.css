@@ -141,7 +141,8 @@
   .index-article-section {
     flex-direction: column;
   }
-  .index-article-container, .index-article-img-container {
+  .index-article-container,
+  .index-article-img-container {
     width: 100%;
   }
   .index-article-img {

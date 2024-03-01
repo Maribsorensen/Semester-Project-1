@@ -1,7 +1,7 @@
 @import url("./variables.css");
 
 .showcase-special-bg {
-  background-color: #010F15;
+  background-color: #010f15;
 }
 .showcase-colors {
   color: var(--f-clr-secondary);
@@ -11,7 +11,10 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
-.showcase-img, .showcase-img-container, .showcase-hero, .showcase-hero-img {
+.showcase-img,
+.showcase-img-container,
+.showcase-hero,
+.showcase-hero-img {
   width: 100%;
   height: auto;
   overflow: hidden;
