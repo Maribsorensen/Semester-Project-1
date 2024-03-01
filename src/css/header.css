@@ -26,6 +26,7 @@ header {
   background-color: var(--primary-theme);
   top: 100%;
   left: 0;
+  height: 100vh;
 }
 .header-nav li {
   display: block;
