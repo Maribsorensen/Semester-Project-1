@@ -26,3 +26,8 @@
   left: 2%;
   font-size: var(--fs-h3);
 }
+@media (max-width: 850px) {
+  .showcase-grid {
+    grid-template-columns: 1fr;
+  }
+}
