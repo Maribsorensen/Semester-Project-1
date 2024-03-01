@@ -52,7 +52,7 @@ header {
 #checkbox-menu:checked ~ .header-nav {
   display: block;
 }
-.hamburger-icon {
+.fa-bars-staggered {
   color: var(--f-clr-secondary);
   font-size: 2.5rem;
 }

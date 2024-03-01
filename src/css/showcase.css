@@ -11,8 +11,14 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
+.showcase-img-container {
+  width: 50%;
+  margin: auto;
+}
+.showcase-img {
+  border-radius: 80px;
+}
 .showcase-img,
-.showcase-img-container,
 .showcase-hero,
 .showcase-hero-img {
   width: 100%;
@@ -29,8 +35,17 @@
   left: 2%;
   font-size: var(--fs-h3);
 }
+@media (max-width: 1100px) {
+  .showcase-img-container {
+    width: 100%;
+  }
+}
 @media (max-width: 850px) {
   .showcase-grid {
     grid-template-columns: 1fr;
+    margin: 1rem;
+  }
+  .showcase-img {
+    border-radius: 0;
   }
 }
