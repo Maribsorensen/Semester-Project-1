@@ -6,6 +6,9 @@
 .showcase-colors {
   color: var(--f-clr-secondary);
 }
+.margin {
+  margin-top: 1rem;
+} 
 .showcase-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -16,7 +19,7 @@
   margin: auto;
 }
 .showcase-img {
-  border-radius: 80px;
+  border-radius: 5rem;
 }
 .showcase-img,
 .showcase-hero,

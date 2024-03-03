@@ -26,7 +26,7 @@
 }
 .exhibitions-list-headline-container {
   background-color: var(--primary-bg);
-  border-radius: 5px;
+  border-radius: 0.3rem;
   text-align: center;
 }
 .exhibitions-list-headline {

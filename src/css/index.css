@@ -33,7 +33,7 @@
 }
 .hero-button:hover {
   letter-spacing: 0.1rem;
-  box-shadow: 0 0 20px var(--primary-bg);
+  box-shadow: 0 0 1.25rem var(--primary-bg);
 }
 .fa-arrow-right {
   padding-left: 1rem;
@@ -56,7 +56,7 @@
   height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 .index-list-headline {
   position: absolute;
@@ -98,7 +98,7 @@
 .index-article-section {
   background-color: var(--secondary-theme);
   display: flex;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 .index-article-container {
   width: 50%;
@@ -108,7 +108,7 @@
 }
 .index-article-img {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 .index-article {
   color: var(--f-clr-secondary);
@@ -127,7 +127,7 @@
 .index-article-button:hover {
   background-color: var(--secondary-theme-dr);
   color: var(--primary-bg);
-  box-shadow: 0 0 20px var(--secondary-theme-dr);
+  box-shadow: 0 0 1.25rem var(--secondary-theme-dr);
   letter-spacing: 0.1rem;
 }
 
