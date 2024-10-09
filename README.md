@@ -1,6 +1,6 @@
 # Nordic Wonder Museum
 
-![image]()
+![image](assets/images/NordicWonderReadme.png)
 
 This is a semester school project.
 
