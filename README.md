@@ -6,13 +6,14 @@ This is a semester school project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+This project is a website for a fictional museum created for a school examination. The website uses html and css. The target audience is school children (ages 7-15) and families with young children. 
 
-You can add some bullet points if you'd like to:
+User stories:
 
-- List item 1
-- List item 2
-- List item 3
+- View a home page showing information and impactful imagery
+- View a contact page, privacy policy page and a terms and conditions page
+- View exhibitions with upcoming events and avaliable exhibitions
+- View a contributing page showing information about how to contribute to the museum
 
 ## Built With
 
@@ -28,7 +29,7 @@ The website is hosted live with GithubPages [here](https://maribsorensen.github.
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone git@github.com:Maribsorensen/Semester-Project-1-Mari.git
 ```
 
 2. Install the dependencies:
@@ -38,8 +39,6 @@ npm install
 ```
 
 ### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
 
 To run the app, run the following commands:
 
