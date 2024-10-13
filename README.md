@@ -6,7 +6,7 @@ This is a semester school project.
 
 ## Description
 
-This project is a website for a fictional museum created for a school examination. The website uses html and css. The target audience is school children (ages 7-15) and families with young children. The website should give a feel of exitement, joy and curiosity. 
+This project is a website for a fictional museum created for a school examination. The website uses html and css. The target audience is school children (ages 7-15) and families with young children. The website should give a feel of exitement, joy and curiosity. While at the same time not be too messy and a way for adults to easily find the information they need.
 
 User stories:
 
